@@ -10,9 +10,9 @@ function writePassword() {
   console.log(document.getElementById("lowercaseYN").checked)
 
    let includeLowercase = document.getElementById("lowercaseYN").checked;
-   let includeUppercase = document.getElementById("lowercaseYN").checked;
-   let includeNumbers = document.getElementById("lowercaseYN").checked;
-   let includeSpecial = document.getElementById("lowercaseYN").checked;
+   let includeUppercase = document.getElementById("UppercaseYN").checked;
+   let includeNumbers = document.getElementById("NumericYN").checked;
+   let includeSpecial = document.getElementById("SpecialYN").checked;
    let passwordLength = document.getElementById("quantity").value;
    let allowedChars = "";
    let password = "";
